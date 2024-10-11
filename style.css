@@ -1,0 +1,26 @@
+.center-content{
+    text-align: center;
+}
+
+p{
+    color: aqua;
+}
+
+button{
+    color: darkorchid;
+    border-color: red;
+    background-color: black;
+}
+
+label{
+font-family: cursive;
+color: yellow;
+}
+
+body{
+    background-color: black;
+}
+
+h1{
+    color: white;
+}

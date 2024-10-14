@@ -52,3 +52,4 @@ dateA.addEventListener('click', function(){
     dateB.textContent = 'dnesim datem je: ' + real_date;
 })
 //tento soubor byl editovat v githubu
+//

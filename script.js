@@ -51,5 +51,5 @@ dateA.addEventListener('click', function(){
     const real_date = now_date.toLocaleDateString();
     dateB.textContent = 'dnesim datem je: ' + real_date;
 })
+
 //tento soubor byl editovat v githubu
-//

@@ -51,5 +51,11 @@ dateA.addEventListener('click', function(){
     const real_date = now_date.toLocaleDateString();
     dateB.textContent = 'dnesim datem je: ' + real_date;
 })
-
+ // dynamicka stranka 2.0
+ function add(){
+    const vauleA = document.getElementById('valueA')
+      let valueC = valueA + 3
+    vauleA.addEventListener('click', function(){
+        valueC.textContent = ('finalni cislo je'+ valueC    
+        )})}
 //tento soubor byl editovat v githubu

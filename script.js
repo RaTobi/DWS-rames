@@ -53,9 +53,8 @@ dateA.addEventListener('click', function(){
 })
  // dynamicka stranka 2.0
  function add(){
-    const vauleA = document.getElementById('valueA')
-      let valueC = valueA + 3
-    vauleA.addEventListener('click', function(){
-        valueC.textContent = ('finalni cislo je'+ valueC    
-        )})}
+    let funkceA = document.getElementById('funkceA').value;
+    funkceA = Number(funkceA);
+    let go = funkceA + 3;
+    document.getElementById('finalFunkce').textContent = 'Výsledek: ' + 
 //tento soubor byl editovat v githubu

@@ -69,4 +69,14 @@ dateA.addEventListener('click', function(){
       let final = number1 + number2;
       vysledek.textContent = 'Výsledek: ' + final
    }
+
+   const obrazek = document.getElementById('obrazek');
+
+   obrazek.addEventListener('mouseover', function() {
+     obrazek.style.transform = 'scale(1.5)';
+   });
+
+   obrazek.addEventListener('mouseout', function() {
+     obrazek.style.transform = 'scale(1)';
+    })
 //tento soubor byl editovat v githubu

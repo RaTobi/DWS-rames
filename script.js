@@ -52,9 +52,21 @@ dateA.addEventListener('click', function(){
     dateB.textContent = 'dnesim datem je: ' + real_date;
 })
  // dynamicka stranka 2.0
- function add(){
+ function add3(){
+    let finalFunkce = document.getElementById('finalFunkce')
     let funkceA = document.getElementById('funkceA').value;
     funkceA = Number(funkceA);
-    let go = funkceA + 3;
-    document.getElementById('finalFunkce').textContent = 'Výsledek: ' + 
+    let funkceB = funkceA + 3;
+    finalFunkce.textContent = 'Výsledek: ' + funkceB;
+   }
+  
+   function add(){
+      let vysledek = document.getElementById('vysledek')
+      let number1 = document.getElementById('number1').value;
+      let number2 = document.getElementById('number2').value;
+      number1 = Number(number1);
+      number2 = Number(number2);
+      let final = number1 + number2;
+      vysledek.textContent = 'Výsledek: ' + final
+   }
 //tento soubor byl editovat v githubu

@@ -79,4 +79,28 @@ dateA.addEventListener('click', function(){
    obrazek.addEventListener('mouseout', function() {
      obrazek.style.transform = 'scale(1)';
     })
+
+// dynamicke stranky 3.0
+
+const dataA = document.getElementById('dataA');
+const dataB = document.getElementById('dataB');
+const dataC = document.getElementById('dataC');
+
+dataB.addEventListener('click', function() {
+    const gtr = dataA.value.trim();
+    const gr = document.createElement('li');
+    gr.className = 'gr';
+
+    gr.textContent = gtr;
+
+    const detb = document.createElement('button');
+    detb.textContent = 'odstran';
+    detb.addEventListener('click', function() {
+        dataC.removeChild(gr);
+    });
+
+    gr.appendChild(detb);
+
+    dataC.appendChild(gr);
+});
 //tento soubor byl editovat v githubu
